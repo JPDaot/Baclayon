@@ -1,0 +1,328 @@
+<html>
+	<head>
+		<style>
+		
+		
+			.container{
+				
+			background:brown;
+			display:grid;
+			border:5px red;
+			grid-template-rows:1fr 8fr 1fr;
+			font-family:courier;
+			color:red;
+			font-weight:bold;
+			column-gap:5px;
+			row-gap:5px;
+			
+			}
+			
+			.header{
+				
+			background:black;
+			font-size:3em;
+			text-align:center;
+			grid-column:span 5;
+			height:125px;
+				
+			}
+			
+			.nav{
+			
+			display:grid;
+			grid-template-columns:1fr;
+			grid-template-rows:100px 100px 100px 100px 100px;
+			background:black;
+			font-size:1em;
+			text-align:center;
+			flex-direction:column;
+				
+			}
+			
+			.main{
+				
+			background:black;
+			font-size:2em;
+			text-align:center;
+			grid-column:span 3;
+				
+			}
+			
+			
+			
+			.aside{
+			
+			display:grid;
+			justify-content:space-evenly;
+			grid-template-columns:1fr;
+			grid-template-rows:1fr 1fr 1fr;
+			padding-top:40px;
+			background:black;
+			font-size:2em;
+			text-align:center;
+			
+			}
+				
+			
+			
+			.footer{
+				
+			background:black;
+			font-size:2em;
+			text-align:center;
+			grid-column:span 5;
+			height:75px;
+				
+			}
+			
+			@media only screen and (max-width:680px) {
+				
+			.header{
+				
+			display:grid;
+			grid-column:span 1;
+			background:black;
+			font-size:2em;
+			text-align:center;
+			grid-column:span 5;
+			height:75px;
+				
+			}
+				
+			.container{
+				
+			background:black;
+			display:grid;
+			border:5px red;
+			grid-template-rows:1fr;
+			font-family:courier;
+			color:red;
+			font-weight:bold;
+			column-gap:5px;
+			row-gap:5px;
+			
+			}
+				
+			.main{
+				
+			background:black;
+			font-size:2em;
+			text-align:center;
+			grid-column:span 4;
+				
+			}
+				
+			.aside{
+			
+			display:grid;
+			grid-column:span 5;
+			grid-row:span 5;
+			background:black;
+			font-size:2em;
+			text-align:center;
+			display:flex;
+			flex:wrap;
+			justify-content:space-evenly;
+				
+			}
+				
+			}
+			
+			@media only screen and (max-width:500px) {
+				
+			.header{
+				
+			display:grid;
+			grid-column:span 1;
+			background:black;
+			font-size:1em;
+			text-align:center;
+			grid-column:span 5;
+			height:75px;
+				
+			}
+			
+			.nav{
+			
+			display:grid;
+			grid-column:span 5;
+			grid-row:span 5;
+			background:black;
+			font-size:1.5em;
+			text-align:center;
+			flex-direction:column;
+			display:flex;
+			flex:wrap;
+				
+			}
+			
+			.container{
+				
+			background:black;
+			display:grid;
+			border:5px red;
+			grid-template-rows:1fr;
+			font-family:courier;
+			color:red;
+			font-weight:bold;
+			column-gap:5px;
+			row-gap:5px;
+			
+			}
+				
+			.main{
+				
+			background:black;
+			font-size:2em;
+			text-align:center;
+			grid-column:span 5;
+				
+			}
+				
+			.aside{
+			
+			display:grid;
+			grid-column:span 5;
+			grid-row:span 5;
+			background:black;
+			font-size:2em;
+			text-align:center;
+			display:flex;
+			flex:wrap;
+			justify-content:space-evenly;
+				
+			}
+					
+			
+			
+			.footer{
+				
+			background:black;
+			font-size:1em;
+			text-align:center;
+			grid-column:span 5;
+			height:125px;
+				
+			}
+			
+			@media only screen and (max-width:375px) {
+				
+			.header{
+				
+			display:grid;
+			grid-column:span 1;
+			background:black;
+			font-size:1em;
+			text-align:center;
+			grid-column:span 5;
+			height:75px;
+				
+			}
+			
+			.nav{
+			
+			display:grid;
+			grid-column:span 5;
+			grid-row:span 5;
+			background:black;
+			font-size:1em;
+			text-align:center;
+			flex-direction:column;
+			display:flex;
+			flex:wrap;
+				
+			}
+				
+			.main{
+				
+			background:black;
+			font-size:1em;
+			text-align:center;
+			grid-column:span 5;
+				
+			}
+			
+			
+				
+			.aside{
+			
+			display:grid;
+			grid-column:span 5;
+			grid-row:span 5;
+			background:black;
+			font-size:2em;
+			text-align:center;
+			display:flex;
+			flex:wrap;
+			justify-content:space-evenly;
+				
+			}
+					
+			
+			
+			
+			.footer{
+				
+			background:black;
+			font-size:1em;
+			text-align:center;
+			grid-column:span 6;
+			height:130px;
+				
+			}
+			
+		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>JP</title>
+	</head>	
+<body>
+
+	<div class=container>
+		<div class=header>JP WEBSITE</div>
+		<div class=nav>
+		
+			<p>LINKS:</p>
+			
+			<a href="aboutme.html">About Me </a>
+			<a href="Talents.html">Talents</a>
+			<a href="completion.html">Completions</a>
+			<a href="health.html">Health and Conditions</a>
+			
+			
+			
+		</div>
+		<div class=main>
+			
+			<p>JP's Website includes the following:</p>
+			<p>GSW team (all 3 concurrent nba all star) Players Description</p>
+			<p>JP's abouts and talents ands Hobbies </p>
+			<p> Current no.1 Kilo 141 and DLQ(Pillippines leaderboard)on codm</p>
+			<p>Also Current no. 1 Locus player </p>
+			
+			<ul>If you are interested in communicating becuase of my</ul>
+			<ul> Intelectual skills and currently a Colosus body of knowledge</ul>
+			<ul>and the ceo x founder of the Wikipedia page online </ul>
+			<ul> and a former WW100 veteran being classified as a medic<ul>
+			<ul> soldier head soldier watchman and General(all at the same time)</ul>
+			<ul> here is my email and inquires</ul>
+				<a href="email.html">email and inquires</a>
+			
+			
+		</div>
+		<div class=aside>
+			
+				<a href="curry.html"><img src="curry.png" width='140' height='140'></a>
+				<a href="GSW.html"><img src="GSW.png" width='140' height='140'></a>
+				<a href="thompson.html"><img src="thompson.png" width='140' height='140'></a>
+				<a href="draymond.html"><img src="draymond.png" width='140' height='140'></a>
+				
+		</div>
+		<div class=footer>
+			<p> Copyright All Rights Reserved </p>
+			<a href="terms.html">Copyright terms</a>
+			
+		</div>
+	</div>
+
+</body>
+</html>
